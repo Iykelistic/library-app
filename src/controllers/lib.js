@@ -1,5 +1,7 @@
 import { validationResult } from 'express-validator';
 import { v2 as cloudinary } from 'cloudinary';
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 import db from '../dbconnection';
 
 
